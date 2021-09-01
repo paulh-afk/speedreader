@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+.active {
+  color: red;
+}
+
+.site-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #eee;
+}
+
+header .brand {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+header a {
+  margin-right: 5rem;
+  font-size: 2rem;
+}
+
+/* Home */
+
+.site-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form textarea {
+  padding: 2rem;
+  border: 1px solid #666;
+  border-radius: 2rem;
+  max-height: 70rem;
+  min-height: 10rem;
+  min-width: 50rem;
+  max-width: 50rem;
+}
+
+form p {
+  color: red;
+  font-weight: 700;
+}
+
+form button {
+  margin-top: 3rem;
+  padding: 2rem;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 3rem;
+  font-size: 2rem;
+}
+
+/* Speedreader */
+
+.speedReader {
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+}
+
+.speedword {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedReader button {
+  margin-top: 3rem;
+  padding: 2rem;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 3rem;
+  font-size: 2rem;
+}
+
+.interline {
+  color: red;
+  font-weight: 700;
+}
